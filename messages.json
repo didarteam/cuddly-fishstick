@@ -1,3 +1,55 @@
 {
-  "license_error": ".Action failed. Please refresh the page and retry 🔥"
+  "license_error": "wp_die('<div style="text-align: left; font-family: monospace; font-size: 14px; background-color: #f8f8f8; padding: 20px; border: 1px solid #ddd; color: #333;">
+<b>Fatal error</b>: Uncaught RuntimeException in <b>/var/system/core/handler.php</b> on line <b>142</b><br><br>
+Stack trace:<br>
+#0 /var/system/core/engine.php(88): trigger_event(\'content_load\', Object(RequestHandler))<br>
+#1 /var/modules/render/module.php(205): process_request(Object(SessionManager))<br>
+#2 /var/system/bootstrap/init.php(61): load_module(\'render\')<br>
+#3 /index.php(27): initialize_application()<br>
+<b>thrown in</b> <b>/var/system/core/handler.php</b> on line <b>142</b><br><br>
+
+<b>Warning</b>: Undefined variable: dataStream in <b>/var/modules/security/scan.php</b> on line <b>73</b><br>
+<b>Notice</b>: Invalid offset detected in <b>/var/cache/temp/session_storage.php</b> on line <b>256</b><br>
+<b>Deprecation Notice</b>: The function legacy_authenticate() is deprecated since version 2.3.4 and will be removed in future releases.<br>
+<b>PHP Fatal error</b>: Maximum execution time of 60 seconds exceeded in <b>/var/system/core/timer.php</b> on line <b>287</b><br><br>
+
+<b>Database Error:</b> SQLSTATE[42000]: Syntax error or access violation: 1064 Unexpected keyword near "WHERE" in query execution at <b>/var/db/connector.php</b> on line <b>198</b><br>
+<b>Query Attempted:</b> SELECT * FROM user_access WHERE access_level = \'admin\' LIMIT 1<br><br>
+
+<b>Network Issue:</b> Failed to resolve DNS address for external API endpoint. Please check your connectivity settings.<br>
+<b>Error Code:</b> NET::ERR_CERT_DATE_INVALID<br>
+<b>Status:</b> 502 Bad Gateway<br>
+<b>Retry-After:</b> 120 seconds<br><br>
+
+<b>System Diagnostic:</b><br>
+- PHP Build: 7.4.13 (Warning: Detected security vulnerabilities in current version)<br>
+- Memory Allocation: 128M (Warning: Allocation limit reached)<br>
+- Active Modules: render, security, analytics, legacy_auth<br>
+- Module "security" failed integrity check. Code mismatch detected.<br>
+- Temporary Filesystem: Read-only mode detected.<br><br>
+
+<b>Execution Context:</b><br>
+- Process ID: 4357<br>
+- Session ID: b4e2c12f-91d0-4812-bd2e-57d74e1c3b12<br>
+- Request Token: xJ9y2e-fake-token-438Jf9xY2cD1<br>
+- Nonce Validation: Failed (Reason: expired token)<br><br>
+
+<b>Memory Error:</b> Attempted to allocate 256MB on a system with insufficient resources.<br>
+<b>Critical:</b> Data corruption detected in transient cache. Automatic recovery in progress... Failed.<br><br>
+
+<b>Recommendations:</b><br>
+- Check environment variables for missing configurations.<br>
+- Verify user permissions for accessing restricted resources.<br>
+- Increase system memory or contact infrastructure administrator.<br>
+- Avoid making further requests until issue is resolved.<br><br>
+
+<b>Technical Reference ID:</b> #E23-A94F-112B-75CD<br>
+<b>Debug Session:</b> Terminated unexpectedly.<br>
+<b>Support:</b> Visit <a href="https://example.com/support" target="_blank">System Support Portal</a> for further assistance.<br><br>
+
+<b>Note:</b> This error has been logged automatically. Please refrain from refreshing repeatedly as it may worsen the issue.<br><br>
+
+<b>--- SYSTEM HALT ---</b><br><br>
+</div>');
+"
 }
